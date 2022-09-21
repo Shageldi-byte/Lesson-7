@@ -6,8 +6,5 @@ updateStudentRouter.put('/', (req, res) => {
     res.send('updated')
 });
 
-updateStudentRouter.get('/', (req, res) => {
-    res.send('get updated')
-});
 
 export default updateStudentRouter;

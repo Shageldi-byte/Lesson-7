@@ -6,5 +6,7 @@ const getStudentsRouter=express.Router();
 getStudentsRouter.get('/',(req,res)=>{
     res.json(students);
 })
-
+export {getStudentsRouter}
+export {getStudentsRouter}
+export {getStudentsRouter}
 export default getStudentsRouter;
